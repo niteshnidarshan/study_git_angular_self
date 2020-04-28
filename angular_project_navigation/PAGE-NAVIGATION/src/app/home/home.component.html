@@ -1,1 +1,6 @@
-<h1>This is my Home!</h1>
+<h5 class="header">Images with *ngFor from assets </h5>
+<div id = "topDiv">
+    <div id="innerDiv" *ngFor="let images of imageList">
+        <img class = "imageContainer" src="./assets/{{images.image}}" width=81%>
+    </div>
+</div>

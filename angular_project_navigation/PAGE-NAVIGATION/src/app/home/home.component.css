@@ -1,0 +1,22 @@
+.header{
+    color: gray;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+#topDiv{
+    height: 75%;
+    top: 19%;
+    bottom: 5%;
+    width: 99%;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: fixed;
+}
+#innerDiv{
+    margin-left: 18%;
+    height: auto;
+}
+.imageContainer{
+    padding: 16px;
+}

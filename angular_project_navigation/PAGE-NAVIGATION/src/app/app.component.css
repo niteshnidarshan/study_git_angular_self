@@ -1,0 +1,22 @@
+#menuDiv{
+    margin-top:3%;
+    width: 99%;
+}
+a:hover{
+    background-color: silver;
+    color: purple;
+}
+a:active{
+    background-color: silver;
+    color: purple;
+}
+.menuRoute{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    
+}
