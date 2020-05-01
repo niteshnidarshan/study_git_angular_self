@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { OthersComponent } from './others/others.component';
+import { SubComponentComponent } from './sub-component/sub-component.component';
+import { UserdataService } from './services/userdata.service';
 
 @NgModule({
   declarations: [
@@ -16,14 +18,15 @@ import { OthersComponent } from './others/others.component';
     HomeComponent,
     ContactComponent,
     LoginComponent,
-    OthersComponent
+    OthersComponent,
+    SubComponentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UserdataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

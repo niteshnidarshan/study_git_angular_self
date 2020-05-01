@@ -21,9 +21,31 @@ export class HomeComponent implements OnInit {
     {image:"menhi_digital327.JPG"},
   ]
 
-  constructor() { }
+  tableNumber: number;
+  tableData: any[]= []; //To use *ngFor & *ngIf by showing 1 to 22 table
+
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
-
+ 
+  getTable(){
+    for(var i: number =1; i<=this.tableNumber; i++){
+      var jsonData = {};
+      var value: string = "";
+      for(var j: number = 1; j<=10; j++){
+        value = value+" "+i*j;
+        if(j<10)
+        {
+          value = value+", ";
+        }
+      }
+      jsonData["index"]= i;
+      jsonData["value"]= value;
+      this.tableData.push(jsonData);
+      
+    }
+  }
+  
 }

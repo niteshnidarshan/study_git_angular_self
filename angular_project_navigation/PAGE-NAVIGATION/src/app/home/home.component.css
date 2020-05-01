@@ -1,22 +1,39 @@
 .header{
     color: gray;
-    top: 5%;
+    margin-top: 5%;
     width: 100%;
     text-align: center;
 }
 #topDiv{
     height: 75%;
     top: 19%;
+    left: 37%;
     bottom: 5%;
-    width: 99%;
+    width: 60%;
     overflow-y: auto;
     overflow-x: auto;
     position: fixed;
+    background-color: tomato;
 }
 #innerDiv{
-    margin-left: 18%;
+    margin-left: 3%;
     height: auto;
 }
 .imageContainer{
     padding: 16px;
+}
+#leftDiv{
+    width: 35%;
+    height: 65%;
+    top: 29%;
+    left: 2%;
+    bottom: 5%;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: fixed;
+}
+#tableDiv{
+    width: 35%;
+    margin-top: 3%;
+    margin-left: 2%; 
 }
